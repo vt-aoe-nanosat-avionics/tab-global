@@ -17,3 +17,5 @@ Included is a version of flight-401-blr that has modified the supporting C files
 |                   |                              |               | APP_GET_TIME                 |
 
 NOTE: COMMON_ASCII will not be transitioned into the new-tab because it utilizes the same OP-CODE as COMMON_DEBUG. Future iterations may change the OP-CODEs of one or both of these commands to allow both in one iteration.
+
+Another note: Anything in new-tab.c that was not written in taolst_protocol.c or tab.c was included in both, and removed from the initial two columns for clarity.
