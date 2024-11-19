@@ -15,3 +15,5 @@ Included is a version of flight-401-blr that has modified the supporting C files
 |                   |                              |               | COMMON_DATA                  |
 |                   |                              |               | APP_SET_TIME                 |
 |                   |                              |               | APP_GET_TIME                 |
+
+NOTE: COMMON_ASCII will not be transitioned into the new-tab because it utilizes the same OP-CODE as COMMON_DEBUG. Future iterations may change the OP-CODEs of one or both of these commands to allow both in one iteration.
